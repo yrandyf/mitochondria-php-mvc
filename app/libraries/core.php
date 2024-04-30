@@ -16,7 +16,7 @@ class Core {
         $url = $this->getUrl();
 
         // Look inside controllers for first values
-        if (isset($url[1]) && file_exists('../app/controllers/'.ucwords($url[0]).'.php')) {
+        if (isset($url[0]) && file_exists('../app/controllers/'.ucwords($url[0]).'.php')) {
             // If exists set it as current controller
             $this->currentController = ucwords($url[0]);
             unset($url[0]);

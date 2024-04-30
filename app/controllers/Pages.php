@@ -1,15 +1,16 @@
 <?php
-    class Pages {
+    class Pages extends Controller {
         public function __construct()
         {
         }
 
         public function index()
         {
-            echo "index method of index page";
+            $this->view('pages/index', ['title'=>'New  Index Page']);
         }
-        public function about($id)
+        
+        public function about()
         {
-            echo $id;
+            $this->view('pages/about' , ['title'=>'New About  Page']);
         }
     }
