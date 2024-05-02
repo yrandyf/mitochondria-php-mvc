@@ -6,11 +6,9 @@
  */
 
 class Controller {
-    // Loads model
     public function model($model)
     {
         require_once '../app/models/'.$model.'.php';
-        // Instantiation
         return new $model();
     }
 
