@@ -10,3 +10,14 @@
 * **Views:** Responsible for rendering the user interface. They typically combine static HTML or PHP code with dynamic data received from the controllers and models to generate the final user experience.
 * **Database Integration:** Provides built-in support for integrating with databases. This may include features like query builders and the ability to define relationships between models.
 * **Middleware:** Offers a middleware layer that allows developers to execute code before and after processing requests. This enables functionalities like authentication, logging, or request transformation to be implemented in a modular and reusable way.
+
+## Quickstart Quide
+1. Configure following constants in app/config.php
+    * DB_USER
+    * DB_PASS
+    * DB_NAME
+    * APPROOT
+    * URLROOT
+    * SITENAME
+
+2. Change rewrite base value in public/.htaccess file.
