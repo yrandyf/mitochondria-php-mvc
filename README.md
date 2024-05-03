@@ -11,7 +11,7 @@
 * **Database Integration:** Provides built-in support for integrating with databases. This may include features like query builders and the ability to define relationships between models.
 * **Middleware:** Offers a middleware layer that allows developers to execute code before and after processing requests. This enables functionalities like authentication, logging, or request transformation to be implemented in a modular and reusable way.
 
-## Quickstart Quide
+## Quickstart Guide
 1. Configure following constants in app/config.php
     * DB_USER
     * DB_PASS
